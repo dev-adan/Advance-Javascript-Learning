@@ -1,5 +1,4 @@
 const num = [2,3,4,7]
-
 //spread operator will take every number after ist one because we already
 //provided that patameter (multiplayer)
 
@@ -10,7 +9,6 @@ function sum(multiplayer,...numbers){
 
 console.log(sum(10,2,3,4,7)) 
 console.log(sum(10,...num)) //we can also do like  this , it is like saying num[0],num[1],num[2]
-
 
 //most used case
 const newArray =[...num] //it will create copy of a num and create a new array
